@@ -1,7 +1,7 @@
 import remult from "remult";
 const {Entity, Fields} = remult;
 
-@Entity('product', {allowApiCrud: true})
+@Entity('post', {allowApiCrud: true})
 export class Post {
 	@Fields.uuid()
 	id!: string;
