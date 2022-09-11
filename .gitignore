@@ -8,3 +8,6 @@ tsconfig.tsbuildinfo
 .vim
 .vscode
 .idea
+
+# remult 
+/db/
