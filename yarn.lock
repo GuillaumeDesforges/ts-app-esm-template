@@ -386,9 +386,9 @@ reflect-metadata@^0.1.13:
   integrity sha512-Ts1Y/anZELhSsjMcU605fU9RE4Oi3p5ORujwbIKXfWa+0Zxs510Qrmrce5/Jowq3cHSZSJqBjypxmHarc+vEWg==
 
 remult@^0.16.1:
-  version "0.16.1"
-  resolved "https://registry.yarnpkg.com/remult/-/remult-0.16.1.tgz#2abf8fee8efb84b8bfbd9eb913888b6ce79ff00d"
-  integrity sha512-aUMTvyfdr/xgFPAIgBXHJc6SCReqMFBfG93KXjWvT6yBSDHRXM+Xu1s6coeMsCM8gildjER7f0i2+dIou8XnyA==
+  version "0.16.2"
+  resolved "https://registry.yarnpkg.com/remult/-/remult-0.16.2.tgz#cb2d913c14510317eaf68b16d66e8a5cc97a6839"
+  integrity sha512-hsuE4FJaUIQFSms60MotfO5YEd1WAy9qrCEe2KjabzGCOBvla2ufO5YbcIPB25zO72spEOUuym7mAdKsn8WRow==
   dependencies:
     reflect-metadata "^0.1.13"
     tslib "^2.3.1"
