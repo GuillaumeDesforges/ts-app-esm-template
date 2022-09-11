@@ -5,7 +5,8 @@
     "api"
   ],
   "scripts": {
-    "build": "tsc --build --force ./tsconfig.json"
+    "build": "tsc --build --force ./tsconfig.json",
+    "build:watch": "tsc --build --force ./tsconfig.json --watch"
   },
   "dependencies": {
     "remult": "^0.16.1"

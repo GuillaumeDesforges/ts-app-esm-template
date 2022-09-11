@@ -20,6 +20,12 @@ yarn install
 yarn build
 ```
 
+in development, you can use the `--watch` mode of `tsc`:
+
+```
+yarn build:watch
+```
+
 ## Run
 
 ```
