@@ -1,0 +1,16 @@
+{
+  "private": "true",
+  "workspaces": [
+    "shared",
+    "api"
+  ],
+  "scripts": {
+    "build": "tsc --build --force ./tsconfig.json"
+  },
+  "dependencies": {
+    "remult": "^0.16.1"
+  },
+  "devDependencies": {
+    "typescript": "^4.8.3"
+  }
+}

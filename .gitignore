@@ -1,0 +1,10 @@
+node_modules/
+dist/
+
+# ts
+tsconfig.tsbuildinfo
+
+# editors
+.vim
+.vscode
+.idea
