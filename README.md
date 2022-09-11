@@ -6,11 +6,6 @@ A template for a web app written in TypeScript using ESM
 
 ## Setup
 
-Requirements:
-
-- yarn
-- NodeJS >= 18.x
-
 ```
 yarn install
 ```
@@ -29,11 +24,13 @@ yarn build:watch
 
 ## API
 
-Run the API:
+Run the API server:
 
 ```
-node api
+yarn api:start
 ```
+
+Note: the API server does not refresh on change.
 
 ## Client
 
@@ -42,3 +39,5 @@ Run the development server (requires the API to be running):
 ```
 yarn client:dev
 ```
+
+Note: the client server refreshes on change.

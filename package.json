@@ -8,6 +8,7 @@
   "scripts": {
     "build": "tsc --build --force ./tsconfig.json",
     "build:watch": "tsc --build --force ./tsconfig.json --watch",
+    "api:start": "node api",
     "client:dev": "yarn workspace client webpack serve --open"
   },
   "dependencies": {
