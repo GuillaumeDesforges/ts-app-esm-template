@@ -37,7 +37,7 @@ node api
 
 ## Client
 
-Run the development server:
+Run the development server (requires the API to be running):
 
 ```
 yarn client:dev
