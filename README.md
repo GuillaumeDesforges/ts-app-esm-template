@@ -7,8 +7,9 @@ A template for a web app written in TypeScript using ESM
 ## Setup
 
 Requirements:
-* yarn
-* NodeJS >= 18.x
+
+- yarn
+- NodeJS >= 18.x
 
 ```
 yarn install

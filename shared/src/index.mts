@@ -1,10 +1,10 @@
-import {Entity, Fields} from "remult";
+import { Entity, Fields } from "remult";
 
-@Entity('post', {allowApiCrud: true})
+@Entity("post", { allowApiCrud: true })
 export class Post {
-	@Fields.uuid()
-	id!: string;
+  @Fields.uuid()
+  id!: string;
 
-	@Fields.string()
-	title!: string;
+  @Fields.string()
+  title!: string;
 }
