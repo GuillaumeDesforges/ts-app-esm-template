@@ -2,7 +2,18 @@
 
 A template for a web app written in TypeScript using ESM
 
-> This is still a WIP
+This demonstration uses [remult](https://remult.dev/) to have a shared model which can be used by an API server for CRUD and a react app as a fetch client.
+
+```
+.
+├── api         # api server
+│   └── src
+├── client      # react app
+│   ├── public
+│   └── src
+└── shared      # remult model & shared utils
+    └── src
+```
 
 ## Setup
 
