@@ -19,6 +19,15 @@ module.exports = {
 	devtool: 'inline-source-map',
 	devServer: {
 		static: ['./dist'],
+		proxy: {
+		'/api': {
+			target: {
+				host: "0.0.0.0",
+				protocol: 'http:',
+				port: 3000
+			},
+		}
+		}
 	},
 	plugins: [
 		new HtmlWebpackPlugin({

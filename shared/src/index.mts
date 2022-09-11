@@ -1,5 +1,4 @@
-import remult from "remult";
-const {Entity, Fields} = remult;
+import {Entity, Fields} from "remult";
 
 @Entity('post', {allowApiCrud: true})
 export class Post {
