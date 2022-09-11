@@ -9,14 +9,14 @@ export const App = () => {
   useEffect(() => {
     (async () => {
       const posts = await postRepo.find();
-      console.log("posts=" + posts);
+      console.log("posts.length=" + posts.length);
       setPosts(posts);
     })();
   }, [setPosts]);
   return (
     <div>
       {posts.map((post) => (
-        <div>
+        <div key={post.id}>
           Post(id={post.id}, title={post.title})
         </div>
       ))}
