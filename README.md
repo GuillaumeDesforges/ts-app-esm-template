@@ -26,8 +26,18 @@ in development, you can use the `--watch` mode of `tsc`:
 yarn build:watch
 ```
 
-## Run
+## API
+
+Run the API:
 
 ```
 node api
+```
+
+## Client
+
+Run the development server:
+
+```
+yarn client:dev
 ```
